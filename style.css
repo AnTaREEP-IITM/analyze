@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--header-bg, #003366);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+button:focus, input:focus {
+    outline: 2px dashed blue;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+:root {
+    --header-bg: #003366;
+    --button-bg: #007BFF;
+    --button-hover-bg: #0056b3;
+    --text-color: #333;
+}
